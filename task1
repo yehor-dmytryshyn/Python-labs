@@ -1,0 +1,31 @@
+print("\tTask 1\n")
+name = "Yehor"
+sname = "Dmytryshyn"
+print(name, sname)
+print("\tTask 2\n")
+name2 = input("Your name: ")
+sname2 = input("Your sname: ")
+print(name2, sname2)
+print("\tTask 3\n")
+width = int(input("Width: "))
+length = int(input("Length: "))
+print("Area of carpet", width*length)
+print("\tTask 4\n")
+width2 = int(input("Width: "))
+length2 = int(input("Length: "))
+price = int(input("Price per square meter: "))
+print("Area of carpet at square centimeter:", width2*length2)
+print("Area of carpet at square meter:", (width2*length2)/10000)
+print("Price for carpet:", price*((width2*length2)/10000), "griven")
+print("\tTask 5\n")
+coin50 = int(input("How many 50`th coins do you have? ---"))
+coin25 = int(input("How many 25`th coins do you have? ---"))
+coin10 = int(input("How many 10`th coins do you have? ---"))
+coin5 = int(input("How many 5`th coins do you have? ---"))
+print("You have ",((coin50*50)+(coin25*25)+(coin10*10)+(coin5*5))/100,"griven")
+print("\tTask 6\n")
+answ = 1
+for i in range(21):
+ if(i==0): answ = 1
+ else: answ *=i
+print(answ)
