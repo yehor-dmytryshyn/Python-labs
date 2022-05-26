@@ -1,0 +1,22 @@
+print("\tTask 1\n")
+len = 3
+vol = len ** 3
+s = 6 * (len ** 2)
+print(f'Cube volume = {vol} , square = {s}')
+print("\tTask 2\n")
+a,b=5.4,8.2
+answ = a/b +24*b - a**2 + 11*(b-a)
+print(f'Function answer is {answ}')
+print("\tTask 3\n")
+a = int(input("Input first number: "))
+b= int(input("Input second number: "))
+print( f'\nSum = {a+b} \n Difference = {a-b} \n Product = {a*b}')
+print("\tTask 4\n")
+c = answ
+print(f'\nCelsius values = {c} \n Fahrenheit value = {(c * 9/5) + 32} ')
+print("\tTask 5\n")
+num = float(1485.32)
+print(int(num * 10) % 10)
+print("\tTask 6\n")
+p1, p2, q1, q2 = 3,9,27,9
+print(f'Distance = {abs(p1-p2)+abs(q1-q2)}')
